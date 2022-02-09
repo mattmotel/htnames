@@ -11,25 +11,32 @@
       line-height: 120%;
       font-weight: 100;
       margin: 16px;
-      background: #e4e8f8;
+      background: #ececec;
     }
 
     span {
       color: #3eb565;
     }
 
+    h2{
+      padding: 0;
+      margin: 0;
+    }
+
     .module {
-      border-radius: 2rem;
-      padding: 3rem;
+      border-radius: 1rem;
+      padding: 2rem;
       background: #fff;
-      max-width: 5rem;
+      max-width: 32rem;
       margin: auto;
+      font-size: 0.8rem;
     }
 
     @media (min-width: 640px) {
 
       .module {
-        padding: 5rem;
+        padding: 3rem;
+        font-size: 1rem;
       }
     }
   </style>
@@ -52,7 +59,7 @@
           "Timothy",
           "Damien"
         ];
-        var metalFirstName = metalFirst[Math.floor(Math.random() * sillyNames1.length)];
+        var metalFirstName = metalFirst[Math.floor(Math.random() * metalFirst.length)];
         document.write("<span>" + metalFirstName + "</span>");
       </script>
 
@@ -64,8 +71,8 @@
           "Bogart",
           "Walsh"
         ];
-        var metalLastName = metalFirst[Math.floor(Math.random() * sillyNames1.length)];
-        document.write("<span>" + metalLast + "</span>");
+        var metalLastName = metalLast[Math.floor(Math.random() * metalLast.length)];
+        document.write("<span>" + metalLastName + "</span>");
       </script>
     </div>
 
