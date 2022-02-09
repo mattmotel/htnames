@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+    body {
+      font-family: sans-serif;
+      font-size: 24px;
+      line-height: 120%;
+      font-weight: 100;
+      margin: 16px;
+      background: #e4e8f8;
+    }
+
+    span {
+      color: #3eb565;
+    }
+
+    .module {
+      border-radius: 2rem;
+      padding: 3rem;
+      background: #fff;
+      max-width: 5rem;
+      margin: auto;
+    }
+
+    @media (min-width: 640px) {
+
+      .module {
+        padding: 5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Hard Name Generator</h1>
+
+  <div class="module" id="metalhead">
+
+    <h2>Metalhead</h2>
+
+    <div>
+      <script type="text/javascript">
+        var metalFirst = [
+          "Kevin",
+          "Pete",
+          "Terry",
+          "Timothy",
+          "Damien"
+        ];
+        var metalFirstName = metalFirst[Math.floor(Math.random() * sillyNames1.length)];
+        document.write("<span>" + metalFirstName + "</span>");
+      </script>
+
+      <script type="text/javascript">
+        var metalLast = [
+          "Miller",
+          "Ericson",
+          "Parker",
+          "Bogart",
+          "Walsh"
+        ];
+        var metalLastName = metalFirst[Math.floor(Math.random() * sillyNames1.length)];
+        document.write("<span>" + metalLast + "</span>");
+      </script>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
