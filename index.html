@@ -17,23 +17,22 @@
       background: #ececec;
     }
 
-    h1{
+    h1 {
       font-family: 'UnifrakturMaguntia', cursive;
       text-align: center;
     }
-    h1 span{
+
+    h1 span {
       font-family: 'Open Sans Condensed', sans-serif;
     }
 
-    span {
+    span {}
 
-    }
-
-    h2{
+    h2 {
       padding: 0;
       margin: 0;
       color: #3eb565;
-      font-size:1rem;
+      font-size: 1rem;
     }
 
     .module {
@@ -61,72 +60,18 @@
 
   <div class="module" id="metalhead">
 
-    <h2>Metalhead</h2>
+    <h2>Metalhead (Male)</h2>
 
     <div>
+
+      <script src="names.js" type="text/javascript"></script>
       <script type="text/javascript">
-        var metalFirst = [
-          "Kevin",
-          "Pete",
-          "Terry",
-          "Timothy",
-          "Damien",
-          "Zachary",
-          "Lyle",
-          "Joost",
-          "Layne",
-          "Cliff",
-          "Rourke",
-          "Eddie",
-          "Victor",
-          "Richie",
-          "Ricky",
-          "Gary",
-          "Fredrik",
-          "Johnny",
-          "John",
-          "Cameron",
-          "Hollie",
-          "Lilo",
-          "Martin",
-          "Aldo",
-          "Brett"
-        ];
-        var metalFirstName = metalFirst[Math.floor(Math.random() * metalFirst.length)];
+        var metalFirstName = maleFirst[Math.floor(Math.random() * maleFirst.length)];
         document.write("<span>" + metalFirstName + "</span>");
       </script>
 
       <script type="text/javascript">
-        var metalLast = [
-          "Miller",
-          "Ericson",
-          "Parker",
-          "Bogart",
-          "Walsh",
-          "Petrosyan",
-          "Makowski",
-          "Lambert",
-          "Medema",
-          "Gallaway",
-          "Caldwell",
-          "Keil",
-          "Gryphon",
-          "Butthole",
-          "Stanza",
-          "Dwyer",
-          "Fernandez",
-          "Thordendal",
-          "Pitzki",
-          "Bergeron",
-          "Matthew",
-          "Wallace",
-          "Omed",
-          "Balderaz",
-          "Landers",
-          "Ryerson",
-          "Medina"
-        ];
-        var metalLastName = metalLast[Math.floor(Math.random() * metalLast.length)];
+        var metalLastName = nameLast[Math.floor(Math.random() * nameLast.length)];
         document.write("<span>" + metalLastName + "</span>");
       </script>
     </div>
@@ -135,39 +80,69 @@
 
   <div class="module" id="agingpunk">
 
-    <h2>Aging Punk</h2>
+    <h2>Metalhead (Female)</h2>
 
     <div>
       <script type="text/javascript">
-        var punkFirstName = metalFirst[Math.floor(Math.random() * metalFirst.length)];
-        document.write("<span>" + punkFirstName + "</span>");
-      </script>
-      <script type="text/javascript">
-        var punkNick = [
-          "Ratfuck",
-          "The Don",
-          "Buckets",
-          "Bones",
-          "Bones",
-          "Peanut",
-          "Billy Club",
-          "Nailgun"
-        ];
-        var punkNickName = punkNick[Math.floor(Math.random() * punkNick.length)];
-        document.write("<span>&ldquo;" + punkNickName + "&rdquo;</span>");
+        var metalFemaleFirstName = femaleFirst[Math.floor(Math.random() * femaleFirst.length)];
+        document.write("<span>" + metalFemaleFirstName + "</span>");
       </script>
 
 
-
-
       <script type="text/javascript">
-
-        var punkLastName = metalLast[Math.floor(Math.random() * metalLast.length)];
+        var punkLastName = nameLast[Math.floor(Math.random() * nameLast.length)];
         document.write("<span>" + punkLastName + "</span>");
       </script>
     </div>
 
   </div>
+
+  <div class="module" id="agingpunk">
+
+    <h2>Aging Punk (Male)</h2>
+
+    <div>
+      <script type="text/javascript">
+        var punkFirstName = maleFirst[Math.floor(Math.random() * maleFirst.length)];
+        document.write("<span>" + punkFirstName + "</span>");
+      </script>
+      <script type="text/javascript">
+        var punkNickName = punkNick[Math.floor(Math.random() * punkNick.length)];
+        document.write("<span>&ldquo;" + punkNickName + "&rdquo;</span>");
+      </script>
+
+
+      <script type="text/javascript">
+        var punkLastName = nameLast[Math.floor(Math.random() * nameLast.length)];
+        document.write("<span>" + punkLastName + "</span>");
+      </script>
+    </div>
+
+  </div>
+
+
+  <div class="module" id="agingpunk">
+
+    <h2>Aging Punk (Female)</h2>
+
+    <div>
+      <script type="text/javascript">
+        var punkFemaleFirstName = femaleFirst[Math.floor(Math.random() * femaleFirst.length)];
+        document.write("<span>" + punkFemaleFirstName + "</span>");
+      </script>
+      <script type="text/javascript">
+        var punkNickName2 = punkNick[Math.floor(Math.random() * punkNick.length)];
+        document.write("<span>&ldquo;" + punkNickName2 + "&rdquo;</span>");
+      </script>
+      <script type="text/javascript">
+        var punkLastName2 = nameLast[Math.floor(Math.random() * nameLast.length)];
+        document.write("<span>" + punkLastName2 + "</span>");
+      </script>
+    </div>
+
+  </div>
+
+  <!-- Crust Punk, Aging Punk, Metalhead, Black Metal Frontman -->
 
 </body>
 
