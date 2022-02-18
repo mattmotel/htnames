@@ -5,28 +5,21 @@
   <meta charset="utf-8">
   <title>Hard Names</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: sans-serif;
+      font-family: courier, monospace;
       font-size: 24px;
       line-height: 120%;
       font-weight: 100;
       margin: 16px;
-      background: #ececec;
+      background: #666;
     }
 
     h1 {
-      font-family: 'UnifrakturMaguntia', cursive;
       text-align: center;
-
     }
 
-    h1 span {
-      font-family: 'Open Sans Condensed', sans-serif;
-    }
+
 
     span {}
 
@@ -41,14 +34,15 @@
       border-radius: 0.5rem;
       padding: 1.5rem;
       background: #fff;
-      font-size: 0.8rem;
+      font-size: 1rem;
+      box-shadow: 3px 3px black;
     }
 
     @media (min-width: 640px) {
 
       .module {
         padding: 2rem;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
       }
     }
   </style>
@@ -57,9 +51,9 @@
 <body>
   <script src="names.js" type="text/javascript"></script>
 
-  <h1 class="text-5xl p-4">The <span class="font-bold">Hard Name</span> Generator</h1>
+  <h1 class="text-xl p-4 ">The <img src="hardname.png" class="h-40 m-auto" alt="Hard Name" /> Generator</h1>
 
-  <div class="grid gap-2 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
+  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
 
     <div class="module" id="metalhead2">
 
@@ -102,7 +96,7 @@
 
 
   </div>
-  <div class="grid gap-2 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
+  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
 
 
 
@@ -150,7 +144,42 @@
 
     </div>
 
+
+
   </div>
+
+
+  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
+    <div class="module" id="location">
+
+      <h2>Location (US)</h2>
+
+      <div>
+        <script type="text/javascript">
+          var locationsName = locations[Math.floor(Math.random() * locations.length)];
+          document.write("<span>" + locationsName + "</span>");
+        </script>
+
+      </div>
+
+    </div>
+
+    <div class="module" id="location2">
+
+      <h2>Location (International)</h2>
+
+      <div>
+        <script type="text/javascript">
+          var locationsName2 = locations2[Math.floor(Math.random() * locations2.length)];
+          document.write("<span>" + locationsName2 + "</span>");
+        </script>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!-- https://coschedule.com/blog/ap-style-cheat-sheet for location-->
   <!-- Crust Punk, Aging Punk, Metalhead, Black Metal Frontman -->
 
 </body>
