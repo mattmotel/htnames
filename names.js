@@ -2424,11 +2424,13 @@ var metalBand1 = [
   "Lucifer’s",
   "Wing",
   "Rotting",
-  "Mare"
+  "Mare",
+  "White"
 
 ];
 var metalBand2 = [
   "Corpse",
+  "Carcass",
   "Angel",
   "Destroyer",
   "Destruction",
@@ -2460,22 +2462,21 @@ var blackMetalBand1 = [
   "Ancient",
   "Funeral",
   "Forgotten",
+  "Neglected",
   "Arch",
   "Diamond",
   "Dragon",
   "Storm",
-  "Thy",
-  "Thou",
   "Necro",
   "Night",
   "Nocturnal",
   "Rotting",
   "Witch",
   "Wolf",
-  "Winter"
-
-
-
+  "Winter",
+  "Obliterated",
+  "Abandoned",
+  "Elder"
 
 
 ];
@@ -2503,7 +2504,8 @@ var blackMetalBand2 = [
   "Heaven",
   "Ground",
   "Fate",
-  "War"
+  "War",
+  "Bloodshed"
 
 ];
 
@@ -2518,7 +2520,11 @@ var stonerBand1 = [
   "Stink",
   "Roach",
   "High",
-  "Acid"
+  "Acid",
+  "Grass",
+  "Smoke",
+  "Pot",
+  "Ganj"
 
 ];
 
@@ -2536,7 +2542,8 @@ var stonerBand2 = [
   " Wizard",
   " King",
   " Queen",
-  "onya"
+  "onya",
+  " Warlock"
 
 ];
 
@@ -2571,6 +2578,7 @@ var punkBand2 = [
   "Surfers",
   "Daddies",
   "Code",
-  "Youth"
+  "Youth",
+  "Bugs"
 
 ];
