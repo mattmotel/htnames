@@ -2423,6 +2423,7 @@ var metalBand1 = [
   "Mahogany",
   "Lucifer’s",
   "Wing",
+    "Van",
   "Rotting",
   "Mare",
   "White"
@@ -2450,7 +2451,7 @@ var metalBand2 = [
   "Tiger",
   "Savage",
   "Shark",
-  "Van",
+
   "Quartz",
   "Triumph"
 
@@ -2476,7 +2477,15 @@ var blackMetalBand1 = [
   "Winter",
   "Obliterated",
   "Abandoned",
-  "Elder"
+  "Elder",
+  "Moon",
+  "Aura",
+  "Grim",
+  "Grave",
+  "Finn",
+  "Fore",
+  "Celtic",
+  "December"
 
 
 ];
@@ -2505,7 +2514,16 @@ var blackMetalBand2 = [
   "Ground",
   "Fate",
   "War",
-  "Bloodshed"
+  "Bloodshed",
+  "Chaos",
+  "Mayhem",
+  "Hell",
+  "Rites",
+  "Noir",
+  "Worm",
+  "Pyre",
+  "Frost",
+  "Relic"
 
 ];
 
