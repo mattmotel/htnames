@@ -6,13 +6,13 @@
   <meta charset="utf-8">
   <title>Hard Names</title>
   <meta property="og:locale" content="en_US" />
-      <meta property="og:type" content="website" />
-      <!-- <meta property="og:url" content="" /> -->
-      <meta property="og:site_name" content="Hard Names" />
-      <meta property="og:image" content="https://mattmotel.github.io/htnames/hardog.png" />
-      <meta name="description" content="Name Generator"/>
-      <meta property="og:description" content="Name Generator"/>
-      <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:type" content="website" />
+  <!-- <meta property="og:url" content="" /> -->
+  <meta property="og:site_name" content="Hard Names" />
+  <meta property="og:image" content="https://mattmotel.github.io/htnames/hardog.png" />
+  <meta name="description" content="Name Generator" />
+  <meta property="og:description" content="Name Generator" />
+  <meta name="twitter:card" content="summary_large_image" />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body {
@@ -26,6 +26,13 @@
 
     h1 {
       text-align: center;
+    }
+
+    h1.category {
+      text-align: left;
+      font-size: 1rem;
+      color: #eee;
+      margin-top: 1rem;
     }
 
 
@@ -61,7 +68,8 @@
 
   <h1 class="text-xl p-4 ">The <img src="hardname.png" class="h-40 m-auto" alt="Hard Name" /> Generator</h1>
 
-  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
+  <h1 class="category max-w-5xl mx-auto px-4">People</h1>
+  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 px-4 py-2 max-w-5xl mx-auto">
 
     <div class="module" id="metalhead2">
 
@@ -104,7 +112,7 @@
 
 
   </div>
-  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
+  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 px-4 py-2 max-w-5xl mx-auto">
 
 
 
@@ -157,9 +165,9 @@
   </div>
 
 
+  <h1 class="category max-w-5xl mx-auto px-4">Bands</h1>
 
-
-  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
+  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 px-4 py-2 max-w-5xl mx-auto">
 
     <div class="module" id="punk">
 
@@ -170,12 +178,11 @@
           var punkBand1Name = punkBand1[Math.floor(Math.random() * punkBand1.length)];
           var punkBand2Name = punkBand2[Math.floor(Math.random() * punkBand2.length)];
 
-            if (punkBand2Name === "Number") {
-              punkBand2Name = Math.floor(Math.random() * 100);
-            }
+          if (punkBand2Name === "Number") {
+            punkBand2Name = Math.floor(Math.random() * 100);
+          }
 
-          document.write("<span>" + punkBand1Name +' '+punkBand2Name + "</span>");
-
+          document.write("<span>" + punkBand1Name + ' ' + punkBand2Name + "</span>");
         </script>
       </div>
 
@@ -203,8 +210,8 @@
 
   </div>
 
-  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
-    <div class="module" id="blackmetal">
+  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 px-4 py-2 max-w-5xl mx-auto">
+    <div class="module" id="grind">
 
       <h2>🐽 Grindcore Band Name</h2>
 
@@ -222,7 +229,7 @@
 
     </div>
 
-    <div class="module" id="stonermetal">
+    <div class="module" id="powermetal">
 
       <h2>🐉 Power Metal Band Name</h2>
 
@@ -230,8 +237,7 @@
         <script type="text/javascript">
           var powerMetalBand1Name = powerMetalBand1[Math.floor(Math.random() * powerMetalBand1.length)];
           var powerMetalBand2Name = powerMetalBand2[Math.floor(Math.random() * powerMetalBand2.length)];
-          document.write("<span>" + powerMetalBand1Name + ' '+powerMetalBand2Name + "</span>");
-
+          document.write("<span>" + powerMetalBand1Name + ' ' + powerMetalBand2Name + "</span>");
         </script>
 
       </div>
@@ -242,7 +248,7 @@
 
   </div>
 
-  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
+  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 px-4 py-2 max-w-5xl mx-auto">
     <div class="module" id="blackmetal">
 
       <h2>🐼 Black Metal Band Name</h2>
@@ -269,8 +275,7 @@
         <script type="text/javascript">
           var stoner1Name = stonerBand1[Math.floor(Math.random() * stonerBand1.length)];
           var stoner2Name = stonerBand2[Math.floor(Math.random() * stonerBand2.length)];
-          document.write("<span>" + stoner1Name +stoner2Name + "</span>");
-
+          document.write("<span>" + stoner1Name + stoner2Name + "</span>");
         </script>
 
       </div>
@@ -284,7 +289,8 @@
   <!-- Crust Punk, Aging Punk, Metalhead, Black Metal Frontman -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
-  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
+  <h1 class="category max-w-5xl mx-auto px-4">Locations</h1>
+  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 px-4 py-2 max-w-5xl mx-auto">
     <div class="module" id="location">
 
       <h2>🇺🇸 Location (US)</h2>
@@ -318,7 +324,10 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-P7579XKXWW"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'G-P7579XKXWW');
