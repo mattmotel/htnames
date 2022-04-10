@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <head>
   <meta charset="utf-8">
   <title>Hard Names</title>
+  <meta property="og:locale" content="en_US" />
+      <meta property="og:type" content="website" />
+      <!-- <meta property="og:url" content="" /> -->
+      <meta property="og:site_name" content="Hard Names" />
+      <meta property="og:image" content="hardname.png" />
+      <meta name="description" content="Name Generator"/>
+      <meta property="og:description" content="Name Generator"/>
+      <meta name="twitter:card" content="summary_large_image" />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     body {
@@ -174,6 +183,79 @@
           document.write("<span>" + locationsName2 + "</span>");
         </script>
 
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
+    <div class="module" id="location">
+
+      <h2>Metal Band Name</h2>
+
+      <div>
+        <script type="text/javascript">
+          var metalBand1Name = metalBand1[Math.floor(Math.random() * metalBand1.length)];
+          document.write("<span>" + metalBand1Name + "</span>");
+        </script>
+        <script type="text/javascript">
+          var metalBand2Name = metalBand2[Math.floor(Math.random() * metalBand2.length)];
+          document.write("<span>" + metalBand2Name + "</span>");
+        </script>
+
+      </div>
+
+    </div>
+
+    <div class="module" id="location2">
+
+      <h2>Black Metal Band Name</h2>
+
+      <div>
+        <script type="text/javascript">
+          var blackMetalBand1Name = blackMetalBand1[Math.floor(Math.random() * blackMetalBand1.length)];
+          document.write("<span>" + blackMetalBand1Name + "</span>");
+        </script>
+        <script type="text/javascript">
+          var blackMetalBand2Name = blackMetalBand2[Math.floor(Math.random() * blackMetalBand2.length)];
+          document.write("<span>" + blackMetalBand2Name + "</span>");
+        </script>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
+    <div class="module" id="location">
+
+      <h2>Stoner Metal Band Name</h2>
+
+      <div>
+        <script type="text/javascript">
+          var stoner1Name = stonerBand1[Math.floor(Math.random() * stonerBand1.length)];
+          var stoner2Name = stonerBand2[Math.floor(Math.random() * stonerBand2.length)];
+          document.write("<span>" + stoner1Name +stoner2Name + "</span>");
+
+        </script>
+
+      </div>
+
+    </div>
+
+    <div class="module" id="location2">
+
+      <h2>Punk Band Name</h2>
+
+      <div>
+        <script type="text/javascript">
+          var punkBand1Name = punkBand1[Math.floor(Math.random() * punkBand1.length)];
+          var punkBand2Name = punkBand2[Math.floor(Math.random() * punkBand2.length)];
+          document.write("<span>" + punkBand1Name +' '+punkBand2Name + "</span>");
+
+        </script>
       </div>
 
     </div>

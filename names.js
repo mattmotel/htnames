@@ -2406,3 +2406,171 @@ var punkNick = [
   "Butthole",
   "Butts"
 ];
+
+var metalBand1 = [
+  "Pig",
+  "Cow",
+  "Dark",
+  "Goat",
+  "Blood",
+  "Battle",
+  "Black",
+  "Bull",
+  "Death",
+  "Frog",
+  "Killing",
+  "Wolf",
+  "Mahogany",
+  "Lucifer’s",
+  "Wing",
+  "Rotting",
+  "Mare"
+
+];
+var metalBand2 = [
+  "Corpse",
+  "Angel",
+  "Destroyer",
+  "Destruction",
+  "Wasteland",
+  "Hate",
+  "Hammer",
+  "Tsunami",
+  "Armageddon",
+  "Axe",
+  "Widow",
+  "Exciter",
+  "Digger",
+  "Fate",
+  "Night",
+  "Riot",
+  "Raven",
+  "Tiger",
+  "Savage",
+  "Shark",
+  "Van",
+  "Quartz",
+  "Triumph"
+
+
+
+
+];
+var blackMetalBand1 = [
+  "Ancient",
+  "Funeral",
+  "Forgotten",
+  "Arch",
+  "Diamond",
+  "Dragon",
+  "Storm",
+  "Thy",
+  "Thou",
+  "Necro",
+  "Night",
+  "Nocturnal",
+  "Rotting",
+  "Witch",
+  "Wolf",
+  "Winter"
+
+
+
+
+
+];
+var blackMetalBand2 = [
+  "Forest",
+  "Destruction",
+  "Dark",
+  "Stream",
+  "Mist",
+  "Filth",
+  "Fortress",
+  "Throne",
+  "Lord",
+  "Emperor",
+  "Oblivion",
+  "Fall",
+  "Tyrant",
+  "Venom",
+  "Ruins",
+  "Remains",
+  "Master",
+  "Sun",
+  "Death",
+  "Grave",
+  "Heaven",
+  "Ground",
+  "Fate",
+  "War"
+
+];
+
+
+var stonerBand1 = [
+  "Bong",
+  "Weed",
+  "Reefer",
+  "Hemp",
+  "Stone",
+  "Spliff",
+  "Stink",
+  "Roach",
+  "High",
+  "Acid"
+
+];
+
+
+var stonerBand2 = [
+  "consin",
+  "tana",
+  "abama",
+  "vada",
+  "achusetts",
+  "orado",
+  "ifornia",
+  " Ripper",
+  " Eater",
+  " Wizard",
+  " King",
+  " Queen",
+  "onya"
+
+];
+
+var punkBand1 = [
+  "The",
+  "Blue",
+  "Green",
+  "Orange",
+  "Operation",
+  "Bad",
+  "Big",
+  "Mob"
+
+
+];
+
+
+var punkBand2 = [
+  "Adolescents",
+  "Addicts",
+  "Agent",
+  "Trio",
+  "Bats",
+  "Boys",
+  "42",
+  "87",
+  "98",
+  "48",
+  "99",
+  "420",
+  "Bill",
+  "Surfers",
+  "Daddies",
+  "Code",
+  "Youth"
+
+];
