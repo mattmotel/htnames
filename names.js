@@ -2485,7 +2485,7 @@ var powerMetalBand1 = [
   "Armored",
   "Old",
   "Burning",
-    "Falcon",
+  "Falcon",
   "Dream",
   "Glory",
   "Leather",
@@ -2577,7 +2577,7 @@ var grindBand1 = [
   "Meathook",
   "Cannibal",
   "Agnostic",
-    "Hoof"
+  "Hoof"
 
 ];
 var grindBand2 = [
@@ -2742,7 +2742,6 @@ var punkBand1 = [
   "Jaw",
   "Super",
   "Silver"
-
 
 ];
 
