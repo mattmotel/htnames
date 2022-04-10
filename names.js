@@ -2422,7 +2422,7 @@ var metalBand1 = [
   "Wolf",
   "Mahogany",
   "Lucifer’s",
-  "Wing",
+  // "Wing",
     "Van",
   "Rotting",
   "Mare",
@@ -2450,8 +2450,7 @@ var metalBand2 = [
   "Tiger",
   "Savage",
   "Shark",
-
-  "Quartz",
+  // "Quartz",
   "Triumph"
 
 
@@ -2541,7 +2540,10 @@ var stonerBand1 = [
   "Grass",
   "Smoke",
   "Pot",
-  "Ganj"
+  "Ganj",
+  "Dope",
+  "Herb",
+  "Bud"
 
 ];
 
@@ -2560,7 +2562,9 @@ var stonerBand2 = [
   " King",
   " Queen",
   "onya",
-  " Warlock"
+  " Warlock",
+  " Smoker",
+  " Witch"
 
 ];
 
@@ -2581,7 +2585,16 @@ var punkBand1 = [
   "Left",
   "Killing",
   "Die",
-  "Anti"
+  "Anti",
+  "Dead",
+  "Sex",
+  "Minor",
+  "Major",
+  "Angry",
+  "Gold",
+  "Jaw",
+  "Super",
+  "Silver"
 
 
 ];
@@ -2628,6 +2641,17 @@ var punkBand2 = [
   "Cult",
   "Rivals",
   "Bombs",
+  "Pistols",
+  "Division",
+  "Jerks",
+  "Biscuits",
+  "Anthem",
+  "Underground",
+  "Lips",
+  "Box",
+  "Breaker",
+  "Chunk",
+  "Romance"
 
 
 ];
