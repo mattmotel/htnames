@@ -2473,7 +2473,7 @@ var metalBand2 = [
 var powerMetalBand1 = [
 
   "Dragon",
-  "Voking",
+  "Viking",
   "Blood",
   "Battle",
   "Wolf",
