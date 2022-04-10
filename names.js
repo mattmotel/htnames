@@ -2555,7 +2555,16 @@ var punkBand1 = [
   "Operation",
   "Bad",
   "Big",
-  "Mob"
+  "Mob",
+  "Red",
+  "Wasted",
+  "Total",
+  "Screeching",
+  "Poison",
+  "Left",
+  "Killing",
+  "Die",
+  "Anti"
 
 
 ];
@@ -2579,6 +2588,29 @@ var punkBand2 = [
   "Daddies",
   "Code",
   "Youth",
-  "Bugs"
+  "Bugs",
+  "Threat",
+  "Zero",
+  "Flag",
+  "Gang",
+  "Failure",
+  "77",
+  "Rejects",
+  "Nasty",
+  "Four",
+  "Nosebleeds",
+  "Club",
+  "Dynamite",
+  "Town",
+  "Law",
+  "X",
+  "Union",
+  "Scream",
+  "Plan",
+  "Distortion",
+  "Cult",
+  "Rivals",
+  "Bombs",
+
 
 ];
