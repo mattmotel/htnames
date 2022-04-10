@@ -2564,7 +2564,10 @@ var stonerBand2 = [
   "onya",
   " Warlock",
   " Smoker",
-  " Witch"
+  " Witch",
+  " Devourer",
+  " Feeder",
+  " Gorger"
 
 ];
 
