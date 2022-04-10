@@ -2443,7 +2443,6 @@ var metalBand2 = [
   "Axe",
   "Widow",
   "Exciter",
-  "Digger",
   "Fate",
   "Night",
   "Riot",
