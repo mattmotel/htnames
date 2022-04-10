@@ -40,8 +40,7 @@
     }
 
     .module {
-      border-radius: 0.5rem;
-      padding: 1.5rem;
+      padding: .75rem;
       background: #fff;
       font-size: 1rem;
       box-shadow: 3px 3px black;
@@ -50,7 +49,7 @@
     @media (min-width: 640px) {
 
       .module {
-        padding: 2rem;
+        padding: 1.25rem;
         font-size: 1.25rem;
       }
     }
@@ -66,7 +65,7 @@
 
     <div class="module" id="metalhead2">
 
-      <h2>Metalhead (♀)</h2>
+      <h2>💀 Metalhead (♀)</h2>
 
       <div>
         <script type="text/javascript">
@@ -85,7 +84,7 @@
 
     <div class="module" id="metalhead">
 
-      <h2>Metalhead (♂)</h2>
+      <h2>💀 Metalhead (♂)</h2>
 
       <div>
 
@@ -111,7 +110,7 @@
 
     <div class="module" id="agingpunk2">
 
-      <h2>Aging Punk (♀)</h2>
+      <h2>🩹 Aging Punk (♀)</h2>
 
       <div>
         <script type="text/javascript">
@@ -132,7 +131,7 @@
 
     <div class="module" id="agingpunk">
 
-      <h2>Aging Punk (♂)</h2>
+      <h2>🩹 Aging Punk (♂)</h2>
 
       <div>
         <script type="text/javascript">
@@ -158,41 +157,28 @@
   </div>
 
 
-  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
-    <div class="module" id="location">
 
-      <h2>Location (US)</h2>
+
+  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
+
+    <div class="module" id="punk">
+
+      <h2>🎸 Punk Band Name</h2>
 
       <div>
         <script type="text/javascript">
-          var locationsName = locations[Math.floor(Math.random() * locations.length)];
-          document.write("<span>" + locationsName + "</span>");
-        </script>
+          var punkBand1Name = punkBand1[Math.floor(Math.random() * punkBand1.length)];
+          var punkBand2Name = punkBand2[Math.floor(Math.random() * punkBand2.length)];
+          document.write("<span>" + punkBand1Name +' '+punkBand2Name + "</span>");
 
+        </script>
       </div>
 
     </div>
 
-    <div class="module" id="location2">
+    <div class="module" id="metalband">
 
-      <h2>Location (Int’l)</h2>
-
-      <div>
-        <script type="text/javascript">
-          var locationsName2 = locations2[Math.floor(Math.random() * locations2.length)];
-          document.write("<span>" + locationsName2 + "</span>");
-        </script>
-
-      </div>
-
-    </div>
-
-  </div>
-
-  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
-    <div class="module" id="location">
-
-      <h2>Metal Band Name</h2>
+      <h2>🤘 Metal Band Name</h2>
 
       <div>
         <script type="text/javascript">
@@ -208,9 +194,14 @@
 
     </div>
 
-    <div class="module" id="location2">
 
-      <h2>Black Metal Band Name</h2>
+
+  </div>
+
+  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
+    <div class="module" id="blackmetal">
+
+      <h2>🐼 Black Metal Band Name</h2>
 
       <div>
         <script type="text/javascript">
@@ -226,12 +217,9 @@
 
     </div>
 
-  </div>
+    <div class="module" id="stonermetal">
 
-  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
-    <div class="module" id="location">
-
-      <h2>Stoner Metal Band Name</h2>
+      <h2>💨 Stoner Metal Band Name</h2>
 
       <div>
         <script type="text/javascript">
@@ -245,25 +233,44 @@
 
     </div>
 
-    <div class="module" id="location2">
 
-      <h2>Punk Band Name</h2>
-
-      <div>
-        <script type="text/javascript">
-          var punkBand1Name = punkBand1[Math.floor(Math.random() * punkBand1.length)];
-          var punkBand2Name = punkBand2[Math.floor(Math.random() * punkBand2.length)];
-          document.write("<span>" + punkBand1Name +' '+punkBand2Name + "</span>");
-
-        </script>
-      </div>
-
-    </div>
 
   </div>
   <!-- https://coschedule.com/blog/ap-style-cheat-sheet for location-->
   <!-- Crust Punk, Aging Punk, Metalhead, Black Metal Frontman -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
+
+  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
+    <div class="module" id="location">
+
+      <h2>🇺🇸 Location (US)</h2>
+
+      <div>
+        <script type="text/javascript">
+          var locationsName = locations[Math.floor(Math.random() * locations.length)];
+          document.write("<span>" + locationsName + "</span>");
+        </script>
+
+      </div>
+
+    </div>
+
+    <div class="module" id="location2">
+
+      <h2>🌐 Location (Int’l)</h2>
+
+      <div>
+        <script type="text/javascript">
+          var locationsName2 = locations2[Math.floor(Math.random() * locations2.length)];
+          document.write("<span>" + locationsName2 + "</span>");
+        </script>
+
+      </div>
+
+    </div>
+
+  </div>
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-P7579XKXWW"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
