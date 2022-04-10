@@ -169,6 +169,11 @@
         <script type="text/javascript">
           var punkBand1Name = punkBand1[Math.floor(Math.random() * punkBand1.length)];
           var punkBand2Name = punkBand2[Math.floor(Math.random() * punkBand2.length)];
+
+            if (punkBand2Name === "Number") {
+              punkBand2Name = Math.floor(Math.random() * 100);
+            }
+
           document.write("<span>" + punkBand1Name +' '+punkBand2Name + "</span>");
 
         </script>
@@ -188,6 +193,45 @@
         <script type="text/javascript">
           var metalBand2Name = metalBand2[Math.floor(Math.random() * metalBand2.length)];
           document.write("<span>" + metalBand2Name + "</span>");
+        </script>
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+  <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 p-4 max-w-5xl mx-auto">
+    <div class="module" id="blackmetal">
+
+      <h2>🐽 Grindcore Band Name</h2>
+
+      <div>
+        <script type="text/javascript">
+          var grindBand1Name = grindBand1[Math.floor(Math.random() * grindBand1.length)];
+          document.write("<span>" + grindBand1Name + "</span>");
+        </script>
+        <script type="text/javascript">
+          var grindBand2Name = grindBand2[Math.floor(Math.random() * grindBand2.length)];
+          document.write("<span>" + grindBand2Name + "</span>");
+        </script>
+
+      </div>
+
+    </div>
+
+    <div class="module" id="stonermetal">
+
+      <h2>🐉 Power Metal Band Name</h2>
+
+      <div>
+        <script type="text/javascript">
+          var powerMetalBand1Name = powerMetalBand1[Math.floor(Math.random() * powerMetalBand1.length)];
+          var powerMetalBand2Name = powerMetalBand2[Math.floor(Math.random() * powerMetalBand2.length)];
+          document.write("<span>" + powerMetalBand1Name + ' '+powerMetalBand2Name + "</span>");
+
         </script>
 
       </div>

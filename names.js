@@ -2408,25 +2408,34 @@ var punkNick = [
 ];
 
 var metalBand1 = [
-  "Pig",
-  "Cow",
+
   "Dark",
+  "Shadow",
   "Goat",
   "Blood",
   "Battle",
   "Black",
-  "Bull",
   "Death",
-  "Frog",
   "Killing",
   "Wolf",
   "Mahogany",
   "Lucifer’s",
   // "Wing",
-    "Van",
+  // "Van",
   "Rotting",
   "Mare",
-  "White"
+  "White",
+  "Misery",
+  "Atomic",
+  "Crushed",
+  "Deep",
+  "Deaf",
+  "Earth",
+  "Fist",
+  "Grave",
+  "Holy",
+  "Iron",
+  "Judas"
 
 ];
 var metalBand2 = [
@@ -2450,8 +2459,143 @@ var metalBand2 = [
   "Tiger",
   "Savage",
   "Shark",
-  // "Quartz",
-  "Triumph"
+  "Triumph",
+  "Dozer",
+  "Heaven",
+  "Claw"
+
+
+
+
+
+];
+
+var powerMetalBand1 = [
+
+  "Dragon",
+  "Voking",
+  "Blood",
+  "Battle",
+  "Wolf",
+  "Mahogany",
+  "Mare",
+  "White",
+  "Earth",
+  "Ancient",
+  "Armored",
+  "Old",
+  "Burning",
+    "Falcon",
+  "Dream",
+  "Glory",
+  "Leather",
+  "Majestic",
+  "Never",
+  "Oden’s",
+  "Pagan",
+  "Phoenix",
+  "Mythic",
+  "Primal",
+  "Rainbow",
+  "Wild",
+  "Sacred",
+  "Twilight"
+
+
+];
+var powerMetalBand2 = [
+  "Funeral",
+  "Carcass",
+  "Oath",
+  "Steel",
+  "Serenity",
+  "Thorns",
+  "Quest",
+  "Fall",
+  "Fist",
+  "Angel",
+  "Saint",
+  "Warrior",
+  "Force",
+  "Rise",
+  "Requiem",
+  "Axis",
+  "Mind",
+  "Rage",
+  "Church",
+  "Power",
+  "Hate",
+  "Hammer",
+  "Tsunami",
+  "Circle",
+  "Armageddon",
+  "Axe",
+  "Forever",
+  "Bards",
+  "Dust",
+  "Ray",
+  "Fate",
+  "Night",
+  "Riot",
+  "Raven",
+  "Tiger",
+  "Triumph",
+  "Heaven",
+  "Claw",
+  "Dungeon",
+  "Elixir",
+  "Viper",
+  "Beast",
+  "Infinty",
+  "Fear",
+  "Guard",
+  "Majesty",
+  "Guardian",
+  "Knights",
+  "Eternity",
+  "Fire",
+  "Savior",
+  "Ritual",
+  "Rising"
+
+];
+var grindBand1 = [
+  "Pig",
+  "Cow",
+  "Dark",
+  "Goat",
+  "Blood",
+  "Black",
+  "Cattle",
+  "Death",
+  "Frog",
+  "Napalm",
+  "Locust",
+  "Brutal",
+  "Rotten",
+  "Fetus",
+  "Meathook",
+  "Cannibal",
+  "Agnostic",
+    "Hoof"
+
+];
+var grindBand2 = [
+  "Corpse",
+  "Carcass",
+  "Decapitation",
+  "Destroyer",
+  "Destruction",
+  "Wasteland",
+  "Hate",
+  "Drill",
+  "Torture",
+  "Infection",
+  "Wound",
+  "Carnage",
+  "Remains",
+  "Autopsy",
+  "Abortion"
 
 
 
@@ -2459,12 +2603,12 @@ var metalBand2 = [
 ];
 var blackMetalBand1 = [
   "Ancient",
+  "Unholy",
   "Funeral",
   "Forgotten",
   "Neglected",
   "Arch",
   "Diamond",
-  "Dragon",
   "Storm",
   "Necro",
   "Night",
@@ -2547,7 +2691,6 @@ var stonerBand1 = [
 
 ];
 
-
 var stonerBand2 = [
   "consin",
   "tana",
@@ -2573,6 +2716,7 @@ var stonerBand2 = [
 
 var punkBand1 = [
   "The",
+  "Atomic",
   "Blue",
   "Green",
   "Orange",
@@ -2602,20 +2746,15 @@ var punkBand1 = [
 
 ];
 
-
 var punkBand2 = [
+  "Number",
+  "420",
   "Adolescents",
   "Addicts",
   "Agent",
   "Trio",
   "Bats",
   "Boys",
-  "42",
-  "87",
-  "98",
-  "48",
-  "99",
-  "420",
   "Bill",
   "Surfers",
   "Daddies",
@@ -2627,7 +2766,6 @@ var punkBand2 = [
   "Flag",
   "Gang",
   "Failure",
-  "77",
   "Rejects",
   "Nasty",
   "Four",
