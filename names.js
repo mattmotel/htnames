@@ -2548,7 +2548,7 @@ var powerMetalBand2 = [
   "Armageddon",
   "Axe",
   "Forever",
-  "Bards",
+  // "Bards",
   "Dust",
   "Ray",
   "Fate",
