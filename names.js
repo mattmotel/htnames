@@ -2578,6 +2578,8 @@ var powerMetalBand2 = [
 ];
 var grindBand1 = [
   "Pig",
+  "Piss",
+  "Anal",
   "Cow",
   "Dark",
   "Goat",
@@ -2593,17 +2595,28 @@ var grindBand1 = [
   "Fetus",
   "Meathook",
   "Cannibal",
+  "Fuck",
+  "Brain",
+  "Human",
   "Agnostic",
-  "Hoof"
+  "Hoof",
+  "Cock and Ball"
 
 ];
 var grindBand2 = [
   "Corpse",
+  "Exhumer",
   "Carcass",
   "Decapitation",
   "Destroyer",
+  "Berzerker",
+  "Smasher",
+  "Impaler",
+  "Mortician",
   "Destruction",
   "Wasteland",
+  "Devourment",
+  "Defecation",
   "Hate",
   "Drill",
   "Torture",
