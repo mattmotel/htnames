@@ -2584,7 +2584,6 @@ var grindBand1 = [
   "Dark",
   "Goat",
   "Blood",
-  "Black",
   "Cattle",
   "Death",
   "Frog",
