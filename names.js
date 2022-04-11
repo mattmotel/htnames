@@ -2420,11 +2420,12 @@ var metalBand1 = [
   "Wolf",
   "Mahogany",
   "Lucifer’s",
-  // "Wing",
+  "Crimson",
   // "Van",
   "Rotting",
-  "Mare",
+
   "White",
+  "Grim",
   "Misery",
   "Atomic",
   "Crushed",
@@ -2440,9 +2441,14 @@ var metalBand1 = [
 ];
 var metalBand2 = [
   "Corpse",
+  "Mare",
+  "Rat",
+  "Tendencies",
   "Carcass",
   "Angel",
   "Destroyer",
+  "Load",
+  "Spirit",
   "Destruction",
   "Wasteland",
   "Hate",
@@ -2457,12 +2463,21 @@ var metalBand2 = [
   "Riot",
   "Raven",
   "Tiger",
+  "Hound",
+  "Star",
+  "Malice",
+  "Rush",
+  "Rose",
   "Savage",
   "Shark",
   "Triumph",
   "Dozer",
   "Heaven",
+  "Magnum",
+  "Anvil",
+  "Illusion",
   "Claw"
+
 
 
 
@@ -2478,7 +2493,6 @@ var powerMetalBand1 = [
   "Battle",
   "Wolf",
   "Mahogany",
-  "Mare",
   "White",
   "Earth",
   "Ancient",
@@ -2513,7 +2527,10 @@ var powerMetalBand2 = [
   "Quest",
   "Fall",
   "Fist",
+  "Butterfly",
+  "Jaguar",
   "Angel",
+  "Stampede",
   "Saint",
   "Warrior",
   "Force",
@@ -2595,6 +2612,7 @@ var grindBand2 = [
   "Carnage",
   "Remains",
   "Autopsy",
+  "Slaughter",
   "Abortion"
 
 
@@ -2624,18 +2642,23 @@ var blackMetalBand1 = [
   "Aura",
   "Grim",
   "Grave",
-  "Finn",
-  "Fore",
+  // "Finn",
+  // "Fore",
   "Celtic",
-  "December"
+  "Moribund",
+  "December",
+  "Stone",
+  "Notre"
 
 
 ];
 var blackMetalBand2 = [
   "Forest",
+  "Breed",
   "Destruction",
   "Dark",
   "Stream",
+  "Slaying",
   "Mist",
   "Filth",
   "Fortress",
@@ -2752,6 +2775,7 @@ var punkBand2 = [
   "Addicts",
   "Agent",
   "Trio",
+  "Rat",
   "Bats",
   "Boys",
   "Bill",
