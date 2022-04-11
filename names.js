@@ -2739,7 +2739,7 @@ var stonerBand2 = [
   " Wizard",
   " King",
   " Queen",
-  "onya",
+  // "onya",
   " Warlock",
   " Smoker",
   " Witch",
